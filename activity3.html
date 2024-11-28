@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Form</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.title-container {
+    flex-grow: 1;
+    text-align: center;
+}
+h1 {
+    text-transform: uppercase;
+    margin: 0;
+}
+.image-box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+.section {
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+h2 {
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    padding: 5px;
+    margin-top: 0;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.input-label {
+    min-width: 150px;
+    margin-right: 10px;
+}
+.input-line {
+    flex-grow: 1;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 2px 0;
+}
+.signature {
+    margin-top: 20px;
+}
+        </style>
+</head>
+<body>
+    <div class="header">
+        <div class="title-container">
+            <h1>Bio-Data</h1>
+        </div>
+        <div class="image-box"></div>
+    </div>
+    
+    <h2>Educational Background</h2>
+    <div class="section">
+        <div class="form-group">
+            <div class="input-container">
+                <span class="input-label">Position Desired:</span>
+                <input type="text" class="input-line">
+            </div>
+            <div class="input-container">
+                <span class="input-label">Date:</span>
+                <input type="text" class="input-line">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="input-container">
+                <span class="input-label">Name:</span>
+                <input type="text" class="input-line">
+            </div>
+            <div class="input-container">
+                <span class="input-label">Gender:</span>
+                <input type="text" class="input-line">
+            </div>
+        </div>
+        <div class="input-container">
+            <span class="input-label">City Address:</span>
+            <input type="text" class="input-line">
+        </div>
+        <div class="input-container">
+            <span class="input-label">Provincial Address:</span>
+            <input type="text" class="input-line">
+        </div>
+        <!-- Add more input containers for other personal data fields -->
+    </div>
+    
+    <h2>Educational Background</h2>
+    <div class="section">
+        <h3>Elementary</h3>
+        <div class="input-container">
+            <span class="input-label">Name of School:</span>
+            <input type="text" class="input-line">
+        </div>
+        <div class="input-container">
+            <span class="input-label">Year Graduated:</span>
+            <input type="text" class="input-line">
+        </div>
+        <!-- Add more input containers for other educational background fields -->
+    </div>
+    
+    <h2>Employment Record</h2>
+    <div class="section">
+        <div class="input-container">
+            <span class="input-label">Company Name:</span>
+            <input type="text" class="input-line">
+        </div>
+        <div class="input-container">
+            <span class="input-label">Position:</span>
+            <input type="text" class="input-line">
+        </div>
+        <!-- Add more input containers for other employment record fields -->
+    </div>
+    
+    <h2>Character Reference</h2>
+    <div class="section">
+        
+        <div class="input-container">
+            <span class="input-label">Name:</span>
+            <input type="text" class="input-line">
+        </div>
+        <div class="input-container">
+            <span class="input-label">Company:</span>
+            <input type="text" class="input-line">
+        </div>
+        <!-- Add more input containers for other character reference fields -->
+    </div>
+    
+    <div class="signature">
+        <p>I certify that the above information is true and correct to the best of my knowledge and belief.</p>
+        <div class="input-container">
+            <span class="input-label">Applicant's Signature:</span>
+            <input type="text" class="input-line">
+        </div>
+    </div>
+</body>
+</html>
